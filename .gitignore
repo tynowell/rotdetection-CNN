@@ -6,3 +6,11 @@ images/crop_mask/
 images/equ_crop/
 
 images/orig/
+
+data/crop/
+
+data/crop_mask/
+
+data/equ_crop/
+
+data/orig/
