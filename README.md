@@ -23,4 +23,11 @@ Evaluating the misclassifications of the detection system indicated that the mod
 
 ## Repository contents
 
-This repository contains the original thesis and the code used. The thesis can be found in pdf form [here](Detection%20and%20Quantification%20of%20Rot%20in%20Harvested%20Trees%20using%20Convolutional%20Neural%20Networks.pdf).
+This repository contains the original thesis and the code used. The thesis can be found in pdf from [here](Detection%20and%20Quantification%20of%20Rot%20in%20Harvested%20Trees%20using%20Convolutional%20Neural%20Networks.pdf).
+
+The code is broken down into five notebooks:
+- Data preprocessing
+- Data selection and cross-validation
+- Classification task
+- Regression task
+- Combined model
