@@ -14,3 +14,5 @@ data/crop_mask/
 data/equ_crop/
 
 data/orig/
+
+\.ipynb_checkpoints/
