@@ -8,6 +8,7 @@
 Master of Science in Data Science
 
 Faculty of Science and Technology
+
 Norwegian University of Life Sciences
 
 ## Abstract
@@ -19,3 +20,7 @@ This Master's thesis explored the feasibility of embedding a computer vision sys
 The model developed to detect RBR achieved an F1 score of 97.1% accuracy (precision of 95.2% and recall of 99.0%) which is a significant improvement over previous techniques with an F1 score of 90.8% accuracy (precision of 90.8% and recall of 90.8%). Prediction of the RBR quantity as a percentage of the surface area attained an RMSE of 6.88%, and was reduced to 6.17% when aggregated with the RBR detector. 
 
 Evaluating the misclassifications of the detection system indicated that the model performance is at least on par with that of the author. These results indicate that there is significant potential in developing this technology further for both economic and environmental gains.
+
+## Repository contents
+
+This repository contains the original thesis and the code used. The thesis can be found in pdf form [here](Detection and Quantification of Rot in Harvested Trees using Convolutional Neural Networks.pdf).
