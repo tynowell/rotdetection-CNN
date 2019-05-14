@@ -36,25 +36,25 @@ The code is broken down into five notebooks:
 
 The following directory structure is used in the code for storing the data and dataframes, and saving logs and models.
 
-### rotdetection-CNN
-#### data
-* orig (original images)
-* orig_mask (original masks)
-* crop (cropped images)
-* crop_mask (cropped masks)
-* equ_crop (histogram equalised images)
-#### dataframes (storing dataframes for training, validation and test sets)
-#### logs
-* cls (classifier logs)
-  * comp (comparison of all models on unaltered images)
-  * enhanced (comparison of all models on histogram equalised images)
-  * select (comparison of selected models)
-  * optim (hyperparameter tuning of final model)
-  * final (final model with validation and without)
-* reg (regressor logs)
-  * comp (comparison of all models on unaltered images)
-  * enhanced (comparison of all models on histogram equalised images)
-  * select (comparison of selected models)
-  *- optim (hyperparameter tuning of final model)
-  * final (final model with validation and without)
-#### models (final models)
+### rotdetection-CNN/
+#### data/
+* orig/ (original images)
+* orig_mask/ (original masks)
+* crop/ (cropped images)
+* crop_mask/ (cropped masks)
+* equ_crop/ (histogram equalised images)
+#### dataframes/ (storing dataframes for training, validation and test sets)
+#### logs/
+* cls/ (classifier logs)
+  * comp/ (comparison of all models on unaltered images)
+  * enhanced/ (comparison of all models on histogram equalised images)
+  * select/ (comparison of selected models)
+  * optim/ (hyperparameter tuning of final model)
+  * final/ (final model with validation and without)
+* reg/ (regressor logs)
+  * comp/ (comparison of all models on unaltered images)
+  * enhanced/ (comparison of all models on histogram equalised images)
+  * select/ (comparison of selected models)
+  * optim/ (hyperparameter tuning of final model)
+  * final/ (final model with validation and without)
+#### models/ (final models)
