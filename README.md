@@ -5,10 +5,10 @@
 
 # Tyrone Carlisle Nowell
 
-## Master of Science in Data Science
+Master of Science in Data Science
 
-## Faculty of Science and Technology
-## Norwegian University of Life Sciences
+Faculty of Science and Technology
+Norwegian University of Life Sciences
 
 ## Abstract
 
