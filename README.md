@@ -26,8 +26,35 @@ Evaluating the misclassifications of the detection system indicated that the mod
 This repository contains the original thesis and the code used. The thesis can be found in pdf from [here](Detection%20and%20Quantification%20of%20Rot%20in%20Harvested%20Trees%20using%20Convolutional%20Neural%20Networks.pdf).
 
 The code is broken down into five notebooks:
-- Data preprocessing
-- Data selection and cross-validation
-- Classification task
-- Regression task
-- Combined model
+- [Data preprocessing](Data%20preprocessing.ipynb)
+- [Data selection and cross-validation](Data%20selection%20and%20cross-validation.ipynb)
+- [Classification task](Classification%20task.ipynb)
+- [Regression task](Regression%20task.ipynb)
+- [Combined model](Combined%20model.ipynb)
+
+## File directory structure
+
+The following directory structure is used in the code for storing the data and dataframes, and saving logs and models.
+
+rotdetection-CNN
+- data
+  - orig (original images)
+  - orig_mask (original masks)
+  - crop (cropped images)
+  - crop_mask (cropped masks)
+  - equ_crop (histogram equalised images)
+- dataframes (storing dataframes for training, validation and test sets)
+- logs
+  -cls (classifier logs)
+    - comp (comparison of all models on unaltered images)
+    - enhanced (comparison of all models on histogram equalised images)
+    - select (comparison of selected models)
+    - optim (hyperparameter tuning of final model)
+    - final (final model with validation and without)
+  -reg (regressor logs)
+    - comp (comparison of all models on unaltered images)
+    - enhanced (comparison of all models on histogram equalised images)
+    - select (comparison of selected models)
+    - optim (hyperparameter tuning of final model)
+    - final (final model with validation and without)
+- models (final models)
