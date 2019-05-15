@@ -16,3 +16,7 @@ data/equ_crop/
 data/orig/
 
 \.ipynb_checkpoints/
+
+logs/
+
+models/
